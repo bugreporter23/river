@@ -1,0 +1,63 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1790218706,
+        "narHash": "sha256-6e4Na3z008XpdVyOXgfasXIn1aN+z8AXFG+jXdQSyuI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c508844df6c28fa6dabc1b6af70f3ccbd65c5201",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "koi-nixpkgs": {
+      "locked": {
+        "lastModified": 1790218706,
+        "narHash": "sha256-6e4Na3z008XpdVyOXgfasXIn1aN+z8AXFG+jXdQSyuI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c508844df6c28fa6dabc1b6af70f3ccbd65c5201",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "koi": {
+      "inputs": {
+        "nixpkgs": "koi-nixpkgs"
+      },
+      "locked": {
+        "owner": "bugreporter23",
+        "repo": "koi",
+        "rev": "831d7c652ec821d9f3fea6ba8a3eb148ec310147",
+        "type": "github",
+        "lastModified": 0,
+        "narHash": "sha256-sXU9orBnP8wbdJIg1yqafG7sMSLaDYR8nZnmZm+NtVU="
+      },
+      "original": {
+        "owner": "bugreporter23",
+        "repo": "koi",
+        "rev": "831d7c652ec821d9f3fea6ba8a3eb148ec310147",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "koi": "koi",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
